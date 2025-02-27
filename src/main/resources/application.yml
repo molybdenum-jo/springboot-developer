@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+    username: sa
+  h2:
+    console:
+      enabled: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: <removed>
+            client-secret: <removed>
+            scope:
+              - email
+              - profile
+jwt:
+  issuer: <removed>
+  secret_key: <removed>

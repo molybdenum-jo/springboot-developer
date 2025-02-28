@@ -22,6 +22,8 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew clean build
+        env:
+          CI: ""
 
       - name: Get current time
         uses: josStorer/get-current-time@v2.0.2

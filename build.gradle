@@ -34,8 +34,6 @@ dependencies {
 
     implementation 'com.mysql:mysql-connector-j'
 
-    implementation 'org.gradle.java.home=/Users/tndus/Library/Java/JavaVirtualMachines/corretto-17.0.14/Contents/Home\n'
-
 }
 
 jar {
